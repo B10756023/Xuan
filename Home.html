@@ -61,7 +61,7 @@
                     <a href="https://b10756023.github.io/Xuan/" class="w3-bar-item w3-button"><i class="fa fa-home w3-margin-right"></i>Home</a>
                     <a href="https://b10756023.github.io/Xuan/MY.html" class="w3-bar-item w3-button w3-light-grey"><i class="fa fa-user"></i>&ensp;MY</a>
                     <a href="https://b10756023.github.io/Xuan/basketball.html" class="w3-bar-item w3-button"><i class='fas fa-basketball-ball'></i>&ensp;Basketball</a>
-                    <a href="https://b10756023.github.io/Xuan/play.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-bicycle"></i>&ensp;play</a>
+                    <a href="https://b10756023.github.io/Xuan/play.html" class="w3-bar-item w3-button"><i class="fa fa-bicycle"></i>&ensp;play</a>
                 </div>
             </div>
         </header>
@@ -106,15 +106,33 @@
     </div>
     <div class="container">
         <div class="row">
+
             <div class="col-2 col-sm-2 col-md-4 col-lg-4 col-xl-4"></div>
             <div class="col-8 col-sm-8 col-md-4 col-lg-4 col-xl-4">
-                <form action="test.php" method="post">
-                    <h2>意見回饋</h2>
-                    姓名：<input type="text" name="UserName">
-                    <br> 內容：
-                    <textarea name="Content"></textarea><br>
-                    <input type="submit" value="送出表單">
-                </form>
+                <table>
+                    <form action="test.php" method="post">
+                        <tr>
+                            <h2>意見回饋</h2>
+                        </tr>
+                        <div class="w3-card w3-round w3-white w3-center"></div>
+                        <tr>
+                            <td></td>
+                            <td>姓名：<input type="text" name="UserName"></td>
+                            <td></td>
+                        </tr>
+                        <br>
+                        <tr>
+                            <td></td>
+                            <td>內容：<textarea name="Content"></textarea></td>
+                            <td></td>
+                        </tr><br>
+                        <tr>
+                            <td></td>
+                            <td><input type="submit" value="送出表單"></td>
+                            <td></td>
+                        </tr>
+                    </form>
+                </table>
             </div>
             <div class="col-2 col-sm-2 col-md-4 col-lg-4 col-xl-4"></div>
         </div>
